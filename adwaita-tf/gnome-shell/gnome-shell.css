@@ -1,0 +1,31 @@
+@import url("resource:///org/gnome/theme/gnome-shell.css");
+stage {
+    font-family: "SF Pro Display", Roboto, "M+ 1c", Cantarell, Sans-Serif;
+    font-size: 10pt;
+    color: #dedede;
+}
+
+#panel {
+    background-color: #2a2a2a;
+    font-weight: normal;
+    height: 2.2em;
+    font-feature-settings: "tnum";
+    transition-duration: 250ms;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);
+}
+
+#panel .panel-button {
+    font-weight: normal;
+    color: #dadada;
+}
+
+.show-apps .show-apps-icon {
+    color: transparent !important;
+    background-image: url("assets/view-app-grid.svg");
+    background-size: contain;
+}
+
+.show-apps .overview-icon, .show-apps .show-apps-icon {
+    color: transparent !important;
+}
+
